@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn-bw-light{
+    @apply text-c-color font-bold border-solid border-2 border-c-color px-5 py-2 hover:text-white hover:shadow-[inset_13rem_0_0_0] hover:shadow-c-color duration-[200ms,500ms] transition-[color,box-shadow]
+}
