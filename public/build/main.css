@@ -663,6 +663,10 @@ video {
   cursor: pointer;
 }
 
+.\!resize-none {
+  resize: none !important;
+}
+
 .appearance-none {
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -1084,6 +1088,10 @@ video {
 .hover\:grayscale-0:hover {
   --tw-grayscale: grayscale(0);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.focus\:\!resize-none:focus {
+  resize: none !important;
 }
 
 .focus\:border:focus {
